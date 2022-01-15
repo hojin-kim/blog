@@ -4,3 +4,6 @@
 
 layout: home
 ---
+Hi, I'm a graduate student working on number theory in KAIST. See [about page]({{site.baseurl}}/about).
+
+My recent posts are below:

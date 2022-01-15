@@ -1,4 +1,4 @@
 _site
 .sass-cache
 .jekyll-metadata
-serve.sh
+_serve.sh
