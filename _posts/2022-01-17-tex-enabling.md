@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TeX Enabling on the Jekyll Github Pages"
-date:   2022-01-17 17:26:00 +0900
+date:   2022-01-17 21:19:00 +0900
 categories: miscellaneous
 ---
 
