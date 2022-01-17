@@ -41,8 +41,7 @@ I can code in
 - `Python`,
 - `Java`,
 - `Mathematica`,
-- `SageMath`.
-- `Macaulay2`, and
+- `SageMath`, and
 - `LaTeX`.
 
 ### Language
@@ -55,6 +54,8 @@ I speak
 Office address : (34141) Room 4420, Building E6, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
 
 Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with characters from my name.
+
+Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this about page.
 
 ---
 _Last updated: Jan. 15th, 2022._
