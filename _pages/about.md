@@ -10,7 +10,7 @@ Advisor: professor [Bo-Hae Im][BHIm]
 
 ## Reserch Interests
 Number theory
-* Currently, I'm working on the topic related to the period polynomials of modular forms.
+* Currently, I'm working on the topic related to the period polynomials of modular forms. Also I'm writing some codes regarding some calculations on MZVs.
 
 ## Educations
 - KAIST, Dept. of Mathematical Sciences, Bachelor's degree, Feb. 2009 - Feb. 2014
