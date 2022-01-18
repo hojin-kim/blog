@@ -20,7 +20,7 @@ I omitted some css settings etc., so the result may be different from the one yo
 
     Refer to [this link](https://jekyllrb.com/docs/collections/) to know what the collections are. 
     
-    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/categories/miscellaneous](https://hojin-kim.github.io/{{ site.baseurl }}categories/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
+    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/category/miscellaneous]({{ site.url}}/{{ site.baseurl }}category/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
     
     The category page will show the list of posts in corresponding category.
 
