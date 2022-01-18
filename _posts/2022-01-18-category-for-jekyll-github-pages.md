@@ -20,7 +20,7 @@ I omitted some css settings etc., so the result may be different from the one yo
 
     Refer to [this link](https://jekyllrb.com/docs/collections/) to know what the collections are. 
     
-    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/category/miscellaneous]({{ site.url}}/{{ site.baseurl }}category/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
+    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/category/miscellaneous]({{ site.url }}/{{ site.baseurl }}category/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
     
     The category page will show the list of posts in corresponding category.
 
@@ -155,7 +155,7 @@ The main structure for the category is done. I made some minor changes;
     ```
     {% endraw %}
 
-7. There is a list of recent posts in the [main page]({{ site.url }}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part:
+7. There is a list of recent posts in the [main page]({{ site.url }}{{site.baseurl}}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part:
     
     {% raw %}
     ```html
