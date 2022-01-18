@@ -155,7 +155,7 @@ The main structure for the category is done. I made some minor changes;
     ```
     {% endraw %}
 
-7. There is a list of recent posts in the [main page]({{ site.url }}{{site.baseurl}}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part:
+7. There is a list of recent posts in the [main page]({{ site.url | escape}}/{{site.baseurl}}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part: 
     
     {% raw %}
     ```html
