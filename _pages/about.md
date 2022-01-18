@@ -13,7 +13,6 @@ Number theory
 * Currently, I'm working on the topic related to the period polynomials of modular forms.
 
 ## Educations
-- Daegu Science High School, 2007-2008
 - KAIST, Dept. of Mathematical Sciences, Bachelor's degree, Feb. 2009 - Feb. 2014
 - KAIST, Dept. of Mathematical Sciences, Mastor's program, Mar. 2014 - Feb. 2016
 - KAIST, Dept. of Mathematical Sciences, Doctoral program, Mar. 2016 - (current)
