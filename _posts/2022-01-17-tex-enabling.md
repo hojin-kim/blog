@@ -11,9 +11,11 @@ For example, `$$\int_0^\infty \frac{\sin x }{x} dx = \frac{\pi}{2} $$` is render
 
 $$\int_0^\infty \frac{\sin x }{x} dx = \frac{\pi}{2}$$
 
-How to: 
-1. Basically it is enough to add the following MathJax snippet at the end of the `<body>` tag (or `<head>` tag, etc.): 
-```javascript
+How to (TL;DR): add the MathJax snippet in your html file which is imported in all pages of your site. To determine where to add the snippet, check `_layouts/default.html` or similar page.
+
+How to (detail):
+1. Basically, it is enough to add the following MathJax snippet at the end of the `<body>` tag (or `<head>` tag, etc.): 
+```js
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
@@ -44,6 +46,23 @@ This code is from the [MathJax website](https://www.mathjax.org/#gettingstarted)
     </html>
     {% endraw %}
     ```
-    I'm not to explain how the jekyll page is rendered. Naively, it says that the `head.html` file will be imported at {% raw %} `{%- include head.html -%}` {% endraw %}, and so on. To add the MathJax snippet at the end of the `<body>` tag, it would be okay to add it in this `default.html` file, but I'd rather add it at the end of the `footer.html` file. (I feel somewhat uncomfortable to modify the layout file.)
+    I'm not to explain how the jekyll page is rendered in detail; naively, it says that the `head.html` file will be imported at {% raw %} `{%- include head.html -%}` {% endraw %}, and so on. To add the MathJax snippet at the end of the `<body>` tag, it would be okay to add it in this `default.html` file, but I'd rather add it at the end of the `footer.html` file. (I feel somewhat uncomfortable to modify the layout file.)
 4. So, open `/_includes/footer.html` file and add the snippet at the very end of the file. 
-5. To use the math equations, you can do as {% raw %}`$$ (your equation) $$`{% endraw %}.
+
+To use the math equations, you can do as {% raw %}`$$ (your equation) $$`{% endraw %}. It is rendered as inline style when it is used inline, and as displaystyle when it is used in separate paragraph. For example, 
+
+{% raw %}
+```
+Compare the inline style $$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ and
+
+$$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ 
+
+the display style.
+```
+{% endraw %}
+
+Compare the inline style $$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ and
+
+$$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ 
+
+the display style.
