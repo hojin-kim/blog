@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+list_title: Recent Posts
 ---
 Hi, I'm a graduate student working on number theory in KAIST. See [about page]({{site.baseurl}}/about).
 

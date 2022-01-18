@@ -2,7 +2,7 @@
 layout: post
 title:  "First post"
 date:   2022-01-15 23:00:00 +0900
-categories: miscellaneous
+category: miscellaneous
 ---
 Hello. I reset my github pages! So this is my (new) first post.
 
