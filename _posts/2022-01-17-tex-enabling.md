@@ -2,7 +2,7 @@
 layout: post
 title:  "TeX Enabling on the Jekyll Github Pages"
 date:   2022-01-17 21:19:00 +0900
-categories: miscellaneous
+category: blog
 ---
 
 I enabled the MathJax $$\TeX$$ renderer on my Jekyll github page. 

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+  
+  <h2> List of posts under category <span class="category-name" ;> {{ page.catname }}</span> </h2>
+  {% assign filtered_posts = site.posts | where: 'category', page.catname %}
+  <ul style="list-style-type: none; margin-left: 0">
+  {% for post in filtered_posts %}
+      <li> <small> {{ post.date | date_to_string}}</small> &nbsp;&nbsp;   <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+  {% endfor %}
+  </ul>
+  <hr>
+  
+  <h2> See all categories <a href="{{ baseurl }}/categories">here</a></h2>
