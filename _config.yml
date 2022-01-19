@@ -30,7 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-#permalink: /:categories/:year:month:day-:title
+permalink: /:categories/:year:month:day-:title
 
 collections:
   categories:
