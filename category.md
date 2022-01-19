@@ -5,7 +5,7 @@ layout: default
 <ul style="list-style-type: none; margin-left: 0">
 {% assign categories = site.categories%}
 {% for post in categories %}
-    <li> {% for idx in post.parent_category %} &nbsp; -&nbsp; {% endfor %}
+    <li> {% for idx in post.parent_category %} &nbsp; {% if forloop.rindex==1 %} &nbsp; - {% endif %}{% endfor %}
     <a class="category-name" href="{{ post.url }}">{{ post.title }}</a>
     </li>
 {% endfor %}
