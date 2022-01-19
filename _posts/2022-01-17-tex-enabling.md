@@ -66,3 +66,25 @@ Compare the inline style $$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ 
 $$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$ 
 
 the display style.
+
+--- 
+update (2020-01-19)
+
+In above I wrote that `$$...$$` will work for both inline & display math modes. However it doesn't work properly for the inline math equations in the title of posts. So we need explicit delimiters for both inline mode and displaymath mode.
+
+The default delimeters for inline math equation is `\\( ... \\)`. (Refer to the [MathJax documentatation](https://docs.mathjax.org/en/latest/options/input/tex.html).) Since single `$` sign is used frequently, it is not recommended to use this as delimeter in general situation. However, I think I'll not use `$` symbols for other uses, so I set  both of `$...$` and ``\\(...\\)`` as inline math delimeters. 
+
+To do this, I added the following lines in `_includes/footer.html` file:
+
+```html
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']] // Default is ['\\(', '\\)']
+    },
+  };
+</script>
+<!-- The below is the snippet added before.-->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
