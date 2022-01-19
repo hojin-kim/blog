@@ -20,7 +20,7 @@ Number theory
 
 ## Publications
 * 2022
-  * [Riemann hypothesis for period polynomials attached to the derivatives of L-functions of cusp forms for $\Gamma_0(N)$][IM2022] (with [Im, Bo-hae][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
+  * [Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$][IM2022] (with [Im, Bo-hae][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
 
 ## Teaching experiences
 I have TA experiences as follows;
