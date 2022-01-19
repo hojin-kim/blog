@@ -70,9 +70,9 @@ the display style.
 --- 
 update (2020-01-19)
 
-In above I wrote that `$$...$$` will work for both inline & display math modes. However it doesn't work properly for the inline math equations in the title of posts. So we need explicit delimiters for both inline mode and displaymath mode.
+I wrote that `$$...$$` will work for both inline & display math modes. However it doesn't work properly for the inline math equations in the title of posts. (I'm not sure why it works in post content.) So we need explicit delimiters for both inline mode and displaymath mode.
 
-The default delimeters for inline math equation is `\\( ... \\)`. (Refer to the [MathJax documentatation](https://docs.mathjax.org/en/latest/options/input/tex.html).) Since single `$` sign is used frequently, it is not recommended to use this as delimeter in general situation. However, I think I'll not use `$` symbols for other uses, so I set  both of `$...$` and ``\\(...\\)`` as inline math delimeters. 
+The default delimeter for inline math equation is `\\( ... \\)`. (Refer to the [MathJax documentatation](https://docs.mathjax.org/en/latest/options/input/tex.html).) Since single `$` sign is used frequently, it is not recommended to use this as delimeter in general situation. However, I think I'll not use `$` symbols for other uses, so I set  both of `$...$` and ``\\(...\\)`` as inline math delimeters. 
 
 To do this, I added the following lines in `_includes/footer.html` file:
 
