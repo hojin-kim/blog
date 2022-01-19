@@ -1,1 +1,1 @@
-Visit [hojin-kim.github.io](http://hojin-kim.github.io)
+Repository for my github page [hojin-kim.github.io](http://hojin-kim.github.io) based on [Jekyll minima](https://github.com/jekyll/minima).
