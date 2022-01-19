@@ -49,7 +49,7 @@ I speak
 - English (fluent), and
 - Spanish (very basic conversation).
 
-## Contant
+## Contact
 Office address : (34141) Room 4420, Building E6, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
 
 Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with characters from my name.
