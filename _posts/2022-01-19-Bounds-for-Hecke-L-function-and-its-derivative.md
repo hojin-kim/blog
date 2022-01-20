@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "A calculation on Hecke $L$-function"
+title:  "Bounds for Hecke $L$-function and its derivative"
 date:   2022-01-19 21:35:00 +0900
 category: math/number-theory
 ---
-Recently I had to do some calculations on the bounds of $L$-functions of cusp form $f$. 
+Recently I had to do some calculations on the bounds of $L$-function and its derivative of cusp form $f$. 
 
 Let $f(\tau) = \sum_{n\ge1} a_n q^n$ where $q= e^{2\pi i \tau}$ be a cusp form of weight $k$, and $L(s) = \sum_{n\ge1} a_n s^n$ be a $L$-function corresponding to $f$.
 
@@ -49,7 +49,7 @@ $$\begin{aligned}
 
 So we have the result. $ \blacksquare$
 
-Note that the best $r$ for $\|L'\|$ would be different depending on $s-(k-1)/2$.
+Note that the best $r$ for $\|L'\|$ would be different depending on $s-(k-1)/2$. Also the bounds for higher derivatives can be obtained too.
 
 --- 
 References:
