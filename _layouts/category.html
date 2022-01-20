@@ -2,7 +2,7 @@
 layout: default
 ---
   {% assign cn = page.catname%}
-  {% if page.parent_category %} 
+  {% if page.catname contains '/' %} 
     <h2> Posts in 
     {% assign category_path = page.catname | split: "/" %}
     {%- capture loc-%} {{site.url | escape}}/category {%- endcapture -%}

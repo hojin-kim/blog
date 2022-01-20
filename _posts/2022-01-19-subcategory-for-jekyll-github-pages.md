@@ -8,24 +8,24 @@ Now this blog has subcategories. Check [math](https://hojin-kim.github.io/catego
 
 I don't like the way I implemented this feature, so I don't want to explain it in detail. Check the [difference](https://github.com/hojin-kim/hojin-kim.github.io/commit/a44f42d5ab9325a0d684d625407e7e10ce74a54c) to see the changes.
 
-In breif, 
+In brief, 
 * I defined the category structures like `math/number-theory`. The `category` key of each post can be given like `category: math` or `category: math/number-theory`, etc.
 * I added the directories to resemble the category structure and corresponding `.md` files in `_categories/`. For example, the category structure for now is
     ```
     blog
     math
-    └number-theory
+       └number-theory
     miscellaneous
     ```
   and the corresponding `_categories/` structure is 
 
     ```
     _categories/
-            └math/
-                └number-theory.md
-            └blog.md
-            └math.md
-            └miscellaneous.md
+              └math/
+                  └number-theory.md
+              └blog.md
+              └math.md
+              └miscellaneous.md
     ```
     (Note that the slash symbol at the end of `(directory_name)/` means that it is a directory, not a file.)
   
@@ -39,7 +39,7 @@ In breif,
     ---
   ```
   
-*  Now the `_layouts/category.html`, `category.md` file was modified. 
+*  I modified `_layouts/category.html`, `category.md` files.
     * The `_layouts/category.html` file shows the list of post under the category. Now,
         * it makes the hyperlinks to all of its ancestors category in heading, and 
         * it shows the list of its descendant categories (if it has any).
@@ -49,3 +49,4 @@ In breif,
 Possible issues on this implementation:
 * I think there are no `startwith`-like command for strings in Jekyll. I used `contains` instead; this means that I cannot make subcategory with another category name. For example, `math/history-of-mathematics` category will cause some problems.
 * `_layouts/category.html` file uses both of the string for category, for example `math/number-theory`, and the list of its ancestors, for example `["math"]`. This is absurd, and the structure can be simplified. 
+  * (2022.1.20.) Now the variable `parent_category` of category page is not used.
