@@ -56,6 +56,8 @@ You can do as follows:
         
         Note that the directory should be match with the one you made in 1. 
 
+    Note that the shell which you set in 1. and the shell which the vscode is using might be different. They should be same in the default setting, but there are some possibilities, like you have changed this setting before for some other purpose. You might have to edit the corresponding rc file in such cases (or reset the vscode setting on it.)
+    
     Also, the vscode might not using the shell you have chosen. Search `Automation profile` and edit `settings.json` file by adding `"terminal.integrated.defaultProfile.osx": "zsh" (or your shell)` at the very before of the last `}` in the file.
 
 3. Set the vscode setting to suggest proper suggestion of custom command and citation key: 
@@ -77,7 +79,7 @@ You can do as follows:
     \end{document}
     ```
 
-You can make a individual `.sty` files for your research, teaching, and other purposes. 
+You can make a individual `.sty` files for your research, teaching, for beamer file, and other purposes. 
 
 Now we are done. Happy $\TeX$ing with vscode!
         
@@ -150,7 +152,7 @@ Now we are done. Happy $\TeX$ing with vscode!
     \end{document}
     ```
 
-각 용도에 맞게 연구용, 수업 자료용, 및 기타 용도에 대한 `.sty` 파일들을 따로 만들 수도 있을 것입니다.
+각 용도에 맞게 연구용, 수업 자료용, beamer 용 및 기타 용도에 대한 `.sty` 파일들을 따로 만들 수도 있을 것입니다.
 
 이것으로 끝입니다. vscode로 즐거운 $\TeX$질 하세요~
 
