@@ -47,6 +47,6 @@ In brief,
         * it shows the list of all categories with tree-like structure with indentation.
 
 Possible issues on this implementation:
-* I think there are no `startwith`-like command for strings in Jekyll. I used `contains` instead; this means that I cannot make subcategory with another category name. For example, `math/history-of-mathematics` category will cause some problems.
+* I think there are no `startswith`-like command for strings in Jekyll. I used `contains` instead; this means that I cannot make subcategory with another category name. For example, `math/history-of-mathematics` category will cause some problems.
 * `_layouts/category.html` file uses both of the string for category, for example `math/number-theory`, and the list of its ancestors, for example `["math"]`. This is absurd, and the structure can be simplified. 
   * (2022.1.20.) Now the variable `parent_category` of category page is not used.
