@@ -36,6 +36,8 @@ collections:
   categories:
     output: true
 
+google_analytics: 'G-PXKN4GVE2P'
+
 disqus: 
   shortname: hojin-kim-github-io
 
