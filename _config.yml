@@ -36,7 +36,7 @@ collections:
   categories:
     output: true
 
-google_analytics: '300371354'
+google_analytics: 'UA-152960761-2'
 
 disqus: 
   shortname: hojin-kim-github-io
