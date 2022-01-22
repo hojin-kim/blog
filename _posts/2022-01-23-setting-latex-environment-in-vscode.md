@@ -24,13 +24,13 @@ My work environment is as follows: If you are window user, this post would be no
 - vscode (1.63.2)
 - LaTeX Workshop (v8.23.0)
 
-## Installation
+### Installation
 * Install [vscode](https://code.visualstudio.com). 
 * Install vscode extension [LaTeX workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). 
 
 (This is enough for the default usage.)
 
-## (Optional) Setting the default .sty or .bib files
+### (Optional) Setting the default .sty or .bib files
 Usually, I have copied one of my previous `.tex` file to make a new `.tex` file, since there are tens or hundreds of lines I one to use in each `.tex` file. This is not only inconvinient, but also cause some potential problems.
 
 For example: 
@@ -97,13 +97,13 @@ Now we are done. Happy $\TeX$ing with vscode!
 - vscode (1.63.2)
 - LaTeX Workshop (v8.23.0)
 
-## 설치
+### 설치
 * [vscode](https://code.visualstudio.com) 를 설치하세요.
 * vscode 확장 [LaTeX workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)를 설치하세요. 
 
 (기본적인 사용을 위해서는 여기까지가 끝입니다.)
 
-## (Optional) 기본 .sty 파일과 .bib 파일을 설정하기
+### (Optional) 기본 .sty 파일과 .bib 파일을 설정하기
 보통은, 저는 원래 만들어 두었던 `.tex` 파일 하나를 복사해서 새로운 `.tex` 파일을 만드는 편이었습니다. 전처리부에 있는 수십~수백줄의 코드를 가지고 다니기 위해서였는데요... 이것은 불편할 뿐더더러 잠재적인 여러 문제들을 발생시킬 수 있는 위험성이 있습니다. 
 
 예를 들면, 
