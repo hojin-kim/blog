@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting LaTeX environment in vscode / vscode 에서 LaTeX 환경 설정하기"
 date:   2022-01-22  22:30:00 +0900
-category: misc
+category: miscellaneous
 ---
 This post is written in English and Korean. Keep scrolling down or [click Here](#한국어) for the korean version.
 
