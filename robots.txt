@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /assets/attachments/
 
 Sitemap: https://hojin-kim.github.io/sitemap.xml
