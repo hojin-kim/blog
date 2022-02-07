@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Using pandoc for beamer and more / Pandoc 을 이용하여 beamer 및 기타 문서 만들기"
-date:   2022-02-07  12:30:00 +0900
-lastmod:    2022-02-07  12:30:00 +0900
+layout:   post
+title:    "Using pandoc for beamer and more / Pandoc 을 이용하여 beamer 및 기타 문서 만들기"
+date:     2022-02-07 12:30:00 +0900
+lastmod:  2022-02-07 12:30:00 +0900
 category: miscellaneous
 ---
 This post is written in English and Korean. Keep scrolling down or [click Here](#한국어) for the korean version.
