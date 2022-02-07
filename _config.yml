@@ -48,6 +48,12 @@ defaults:
       path: "posts" 
     values:
       comments: true
+  -
+    scope:
+      path: "assets/attachments/**" 
+    values:
+      sitemap: false
+      
 
 
 
