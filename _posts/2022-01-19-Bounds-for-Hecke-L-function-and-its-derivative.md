@@ -31,7 +31,7 @@ $$|L(s)-1| = \sum_{n\ge2}|a_n|n^{-s} \le
 
 So we have the result. $\blacksquare$
 
-**Lemma**. ([IK, Lemma 3.6 (b)]) Let $r>0$. For $s>r+(k+1)/2$, 
+**Lemma**. ([IK2022, Lemma 3.6 (b)]) Let $r>0$. For $s>r+(k+1)/2$, 
 
 $$|L'(s)| \le \frac{1}{er}\left( \zeta(s-r-(k-1)/2)^2-1\right).$$
 
