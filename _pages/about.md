@@ -57,7 +57,7 @@ Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with charac
 Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this about page.
 
 ---
-_Last updated: Jan. 17th, 2022._
+_Last updated: Feb. 23rd, 2022._
 
 [BHIm]: https://sites.google.com/view/imbh/home
 [IM2022]: https://doi.org/10.1016/j.jmaa.2021.125971
