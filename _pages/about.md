@@ -19,9 +19,9 @@ Number theory
 
 ## Publications
 * 2022
-  * [Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$][IM2022] (with [Bo-hae Im][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
   * [Zagier-Hoffman's conjectures in positive characteristic][IKLNdP2022] (wtih [Bo-hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
-
+  * [Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$][IM2022] (with [Bo-hae Im][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
+  
 ## Teaching experiences
 I have TA experiences as follows;
 * Calculus 1 (2015F, 2021S, 2022S)
