@@ -19,7 +19,8 @@ Number theory
 
 ## Publications
 * 2022
-  * [Zagier-Hoffman's conjectures in positive characteristic][IKLNdP2022] (wtih [Bo-hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
+  * [On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$][IKL2022] (with [Bo-hae Im][BHIm], [Wonwoong Lee][WLee]), _preprint_.
+  * [Zagier-Hoffman's conjectures in positive characteristic][IKLNdP2022] (with [Bo-hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
   * [Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$][IM2022] (with [Bo-hae Im][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
   
 ## Teaching experiences
@@ -57,9 +58,11 @@ Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with charac
 Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this about page.
 
 ---
-_Last updated: May 17th, 2022._
+_Last updated: June 15th, 2022._
 
 [IM2022]: https://doi.org/10.1016/j.jmaa.2021.125971
 [IKLNdP2022]: https://arxiv.org/abs/2205.07165
+[IKL2022]: https://arxiv.org/abs/2206.06798
 [BHIm]: https://sites.google.com/view/imbh/home
+[WLee]: https://sites.google.com/site/leewwmath
 [TNgoDac]: http://tuan.ngodac.perso.math.cnrs.fr
