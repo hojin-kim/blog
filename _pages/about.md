@@ -26,14 +26,14 @@ Number theory
 ## Teaching experiences
 I have TA experiences as follows;
 * Calculus 1 (2015F, 2021S, 2022S)
-* Calculus 2 (2014S, 2016F, 2017F, 2020F, 2021F)
+* Calculus 2 (2014S, 2016F, 2017F, 2020F, 2021F, 2022F)
 * Introduction to Linear Algebra (2021S)
 * Differential Equations and Applications (2016S, 2017S)
 * Logic and Set Theory (2014F, 2016F)
 * Introduction to Number Theory (2015S, 2016S, 2022S)
-* Linear Algebra (2017S, 2017F, 2020F, 2021F)
+* Linear Algebra (2017S, 2017F, 2020F, 2021F, 2022F)
 
-I recieved the Best TA award in [2021 Spring](https://mathsci.kaist.ac.kr/home/2021/09/2021년-봄학기-우수조교상) and 2022 Spring.
+I recieved the Best TA award in [2021 Spring](https://mathsci.kaist.ac.kr/home/2021/09/2021년-봄학기-우수조교상) and [2022 Spring](https://mathsci.kaist.ac.kr/home/2022/09/2022년-봄학기-우수조교상-시상식/).
 
 ## Skills
 ### Programming
