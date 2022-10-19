@@ -25,7 +25,7 @@ Number theory
 
 ## Talks 
 * 2022 
-  * On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$, in the special session on *Automorphic Forms and $q$-Series*, [2022 Global KMS International Conference](https://www.kms.or.kr/conference/2022_fall/index.html).
+  * On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$, in the special session on *Automorphic Forms and $q$-Series* of [2022 Global KMS International Conference](https://www.kms.or.kr/conference/2022_fall/index.html).
 
 ## Teaching experiences
 I have TA experiences as follows;
