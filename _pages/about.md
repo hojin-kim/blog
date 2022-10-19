@@ -25,7 +25,7 @@ Number theory
 
 ## Talks 
 * 2022 
-  * Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$, in the special session on *Automorphic Forms and $q$-Series* of [2022 Global KMS International Conference](https://www.kms.or.kr/conference/2022_fall/index.html).
+  * Riemann hypothesis for period polynomials attached to the derivatives of $L$-functions of cusp forms for $\Gamma_0(N)$, in the special session on *Automorphic Forms and $q$-Series* of [2022 Global KMS International Conference](https://www.kms.or.kr/conference/2022_fall/index.html).
 
 ## Teaching experiences
 I have TA experiences as follows;
