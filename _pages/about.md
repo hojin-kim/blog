@@ -22,7 +22,11 @@ Number theory
   * [On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$][IKL2022] (with [Bo-Hae Im][BHIm], [Wonwoong Lee][WLee]), _preprint_.
   * [Zagier-Hoffman's conjectures in positive characteristic][IKLNdP2022] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
   * [Riemann hypothesis for period polynomials attached to the derivatives of $$L$$-functions of cusp forms for $$\Gamma_0(N)$$][IM2022] (with [Bo-Hae Im][BHIm]), _J. Math. Anal. Appl._ 509 (2022), no. 2, Paper No. 125971.
-  
+
+## Talks 
+* 2022 
+  * On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$, in the special session on *Automorphic Forms and $q$-Series*, [2022 Global KMS International Conference](https://www.kms.or.kr/conference/2022_fall/index.html).
+
 ## Teaching experiences
 I have TA experiences as follows;
 * Calculus 1 (2015F, 2021S, 2022S)
