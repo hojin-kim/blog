@@ -18,6 +18,9 @@ Number theory
   - Leave of absence, AI researcher in TmaxData & TmaxAI for alternative civilian service, Sep. 2018 - Aug. 2020
 
 ## Publications
+* 2023 
+  * [Hopf algebras and alternating multiple zeta values in positive characteristic][IKLNdP2023a] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
+  * [Hopf algebras and multiple zeta values in positive characteristic][IKLNDP2023] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
 * 2022
   * [On the common zeros of quasi-modular forms for $\Gamma_0^+(N)$ of level $N=1,2,3$][IKL2022] (with [Bo-Hae Im][BHIm], [Wonwoong Lee][WLee]), _preprint_.
   * [Zagier-Hoffman's conjectures in positive characteristic][IKLNdP2022] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
@@ -30,12 +33,12 @@ Number theory
 
 ## Teaching experiences
 I have TA experiences as follows;
-* Calculus 1 (2015F, 2021S, 2022S)
+* Calculus 1 (2015F, 2021S, 2022S, 2023S)
 * Calculus 2 (2014S, 2016F, 2017F, 2020F, 2021F, 2022F)
 * Introduction to Linear Algebra (2021S)
 * Differential Equations and Applications (2016S, 2017S)
 * Logic and Set Theory (2014F, 2016F)
-* Introduction to Number Theory (2015S, 2016S, 2022S)
+* Introduction to Number Theory (2015S, 2016S, 2022S, 2023S)
 * Linear Algebra (2017S, 2017F, 2020F, 2021F, 2022F)
 
 I recieved the Best TA award in [2021 Spring](https://mathsci.kaist.ac.kr/home/2021/09/2021년-봄학기-우수조교상) and [2022 Spring](https://mathsci.kaist.ac.kr/home/2022/09/2022년-봄학기-우수조교상-시상식/).
@@ -63,8 +66,10 @@ Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with charac
 Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this about page.
 
 ---
-_Last updated: June 15th, 2022._
+_Last updated: April 7th, 2023._
 
+[IKLNdP2023a]: https://arxiv.org/abs/2304.02337
+[IKLNdP2023]: https://arxiv.org/abs/2301.05906
 [IM2022]: https://doi.org/10.1016/j.jmaa.2021.125971
 [IKLNdP2022]: https://arxiv.org/abs/2205.07165
 [IKL2022]: https://arxiv.org/abs/2206.06798
