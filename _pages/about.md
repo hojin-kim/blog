@@ -19,6 +19,7 @@ Number theory
 
 ## Publications
 * 2023 
+  * [Note on linear independence of alternating multiple zeta values in positive characteristic][IKLNdP2023b] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
   * [Hopf algebras and alternating multiple zeta values in positive characteristic][IKLNdP2023a] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
   * [Hopf algebras and multiple zeta values in positive characteristic][IKLNDP2023] (with [Bo-Hae Im][BHIm],  Khac Nhuan Le, [Tuan Ngo Dac][TNgoDac], Lan Huong Pham), _preprint_.
 * 2022
@@ -68,6 +69,7 @@ Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://
 ---
 _Last updated: April 7th, 2023._
 
+[IKLNdP2023b]: https://hal.science/hal-04240841
 [IKLNdP2023a]: https://arxiv.org/abs/2304.02337
 [IKLNdP2023]: https://arxiv.org/abs/2301.05906
 [IM2022]: https://doi.org/10.1016/j.jmaa.2021.125971
