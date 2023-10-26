@@ -7,7 +7,7 @@ category: math/number-theory
 
 Recently, I have been learning about the basic notions of automorphic forms, and I want to document what I have learned.
 
-I had a very vague understanding of 'automorphic forms', and I was (well, and still I am) a little bit intimidated of it. However, finally I had to delve into the world of these objects. 
+I had a very vague understanding of 'automorphic forms', and I was (well, and still I am) a little bit intimidated by it. However, finally, I had to delve into the world of these objects. 
 
 The only idea I had was that automorphic forms are a vast generalization of modular forms, so that's where I started.
 
@@ -20,19 +20,19 @@ We can extend the action of $\Gamma$ to $\mathcal{H} \cup \mathbb{Q} \cup \{\inf
 
 The **cusps** of $\Gamma$ are the orbits of $\Gamma$ on $\mathbb{Q}\cup \{\infty\}$. 
 
-For example, let $$\frac{p}{q} \in \mathbb{Q}$$ (the minimal representation), then there exists $a, b$ with $ap-bq =1$, and $$\begin{pmatrix}p & b \\ q & a\end{pmatrix}.\infty = p/q$$; that is, $PSL_2(\mathbb{Z})$ has one cusp at $\infty$ (as a equivalence class of $\mathbb{Q}\cup \{\infty\}$). Number of (the classes of) cusps can be greater than one, but it is always finite.
+For example, let $$\frac{p}{q} \in \mathbb{Q}$$ (the minimal representation), then there exists $a, b$ with $ap-bq =1$, and $$\begin{pmatrix}p & b \\ q & a\end{pmatrix}.\infty = p/q$$; that is, $PSL_2(\mathbb{Z})$ has one cusp at $\infty$ (as a equivalence class of $\mathbb{Q}\cup \{\infty\}$). The number of (the classes of) cusps can be greater than one, but it is always finite.
 
 We defined the action of $\Gamma$ on $\mathcal{H}$ above. $\Gamma$ also acts on the functions on $\mathcal{H}$ using the **slash operator**, defined as $$f\mapsto f\mid_k\gamma$$, to be $$(f\mid_k \gamma)(\tau) = (c\tau+d)^{-k}f(\gamma.\tau)$$, where $$\gamma = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \Gamma$$. Here $(c\tau+d)$ (or its $k$-th power) is called the **factor of automorphy**.
 
 ## Modular form
 **Definition (Modular form).** 
-A function $f\colon \mathcal{H}\to \mathbb{C}$ is said to be (holomorphic) modular form of weight $k$ and level $\Gamma$, if
+A function $f\colon \mathcal{H}\to \mathbb{C}$ is said to be a (holomorphic) modular form of weight $k$ and level $\Gamma$, if
 1. **Holomorphy**:
     $f$ is holomorphic on $\mathcal{H}$, 
 2. **Modularity**:
     $$(f|_k\gamma)(\tau) = f(\tau)$$ for all $\gamma \in \Gamma$$,
 3. **Growth condition**:
-    $f$ extends holomorphically to every cusps of $\Gamma$.
+    $f$ extends holomorphically to every cusp of $\Gamma$.
 
 We write $M_k(\Gamma)$ the space of modular forms of weight $k$ and level $\Gamma$.
 
@@ -46,14 +46,14 @@ i.e. it is periodic. One can consider a function $g\colon q\mapsto f\left(\frac{
 
 $$f(\tau) = \sum_{n\in \mathbb{Z}} a_n q^n = \sum_{n\in \mathbb{Z}} a_n e^{2\pi i n \tau}.\quad (q = e^{2\pi i \tau})$$ 
 
-The growth condition is that $f$ is holomorphic at the cusp $\infty$. Note that $q=e^{2\pi i \tau}$ tends to $0$ as $\Im(\tau) \to \infty$, so $f$ is holomorphic at $\infty$ if and only if $a_n = 0$ for all $n<0$. So the $f$ has the following fourier expansion 
+The growth condition is that $f$ is holomorphic at the cusp $\infty$. Note that $q=e^{2\pi i \tau}$ tends to $0$ as $\Im(\tau) \to \infty$, so $f$ is holomorphic at $\infty$ if and only if $a_n = 0$ for all $n<0$. So the $f$ has the following Fourier expansion 
 
 $$f(\tau) =  \sum_{n\ge0} a_n e^{2\pi i n \tau}.$$ 
 
-Note that a modular form $f$ is said to be **a cusp form**, or **cuspidal**, when $a_0=0$ (i.e. $f$ vanishes at the cusp $\infty$).
+Note that a modular form $f$ is said to be a **cusp form** when $a_0=0$ (i.e. $f$ vanishes at the cusp $\infty$).
 
 ### Examples
-One of the most natural example of modular forms give rise from the quadratic form. Let $Q$ be a (positive definite integral) quadratic form in $2$ (or, $2k$) variables, for example, $Q(x,y) = x^2+y^2$. Then we can define the **Theta function** 
+One of the most natural examples of modular forms arises from the quadratic form. Let $Q$ be a (positive definite integral) quadratic form in $2$ (or, $2k$) variables, for example, $Q(x,y) = x^2+y^2$. Then we can define the **Theta function** 
 
 $$\Theta_Q(\tau) = \sum_{(x,y)\in \mathbb{Z}^2} e^{2\pi i Q(x,y)\tau} = 1 +\sum_{n\ge1} r_Q(n) q^n,$$
 
@@ -61,13 +61,13 @@ where $r_Q(n)$ is the number of representations of $n$ by $Q$. Then $\Theta_Q$ i
 
 Another class of examples is the **Eisenstein series**. Let $k\ge4$ be even, and let $$G_k(\tau) = \sideset{}{'}\sum_{m,n\in \mathbb{Z}}\frac{1}{(m\tau+n)^k}\ ,$$ where $\sum'$ is the sum over indices which excludes the term $m=n=0$. It is a modular form of weight $k$ and level $SL_2(\mathbb{Z})$.
 
-The fourier expansion of $G_k$ is 
+The Fourier expansion of $G_k$ is 
 
 $$G_k(\tau) = 2\zeta(k) + \frac{2\cdot(2\pi)^k}{\Gamma(k)}\sum_{n\ge1}\sigma_{k-1}(n)q^n,$$
 
 where $\sigma_{r}(n) = \sum_{d\mid n}d^{r}$ is the divisor function. The normalized Eisenstein series $E_k(\tau)$ is defined to have the constant term $1$; i.e. $E_k(\tau) = \dfrac{G_k(\tau)}{2 \zeta(k)}$. 
 
-Note that, if $f$ and $g$ are a modular form of weight $k$ and level $\Gamma$, then $f+g$ and $f^n$ is a modular form of weight $k$ and $nk$ respectively (and level $\Gamma$). One can construct a first cusp form from Eisenstein series; $E_4^3 - E_6^2$ is a cusp form of weight $12$ and level $SL_2(\mathbb{Z})$. We normalize this function to define the **Discrimant function**,
+Note that, if $f$ and $g$ are a modular form of weight $k$ and level $\Gamma$, then $f+g$ and $f^n$ is a modular form of weight $k$ and $nk$ respectively (and level $\Gamma$). One can construct a first cusp form from the Eisenstein series; $E_4^3 - E_6^2$, with vanishing constant in its Fourier expansion, is a cusp form of weight $12$ and level $SL_2(\mathbb{Z})$. We normalize this function to define the **Discriminant function**,
 
 $$\Delta(\tau) = \frac{1}{1728}\left(E_4^3 - E_6^2\right) = q\prod_{n\ge1}(1-q^n)^{24}.$$
 
