@@ -68,7 +68,7 @@ $$\sum_{i=1}^n i^2 = \frac{n(n+1)(n+\frac{1}{2})}{3}$$
 the display style.
 
 --- 
-update (2020-01-19)
+update (2022-01-19)
 
 I wrote that `$$...$$` will work for both inline & display math modes. However it doesn't work properly for the inline math equations in the title of posts. (I'm not sure why it works in post content.) So we need explicit delimiters for both inline mode and displaymath mode.
 
@@ -88,3 +88,12 @@ To do this, I added the following lines in `_includes/footer.html` file:
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
+
+--- 
+update (2023-10-26)
+
+This blog uses MathJax for the $$\TeX$$ rendering, but it does not support some packages. I wanted to include some commutative diagrams with `tikz-cd`, so it was an issue. My workaround is simply to attach the pre-rendered SVG image of it. 
+
+To get the standalone images of commutative diagrams, I used [tikz2svg](https://juan.benet.ai/blog/2014-03-09-tikz2svg/), which is dependent on [pdf2svg](https://formulae.brew.sh/formula/pdf2svg). 
+
+I'm not sure if the scaling of SVG would align with the MathJax equations. This would be one of the TODOs.

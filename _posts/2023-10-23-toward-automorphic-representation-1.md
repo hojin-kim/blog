@@ -50,7 +50,7 @@ The growth condition is that $f$ is holomorphic at the cusp $\infty$. Note that 
 
 $$f(\tau) =  \sum_{n\ge0} a_n e^{2\pi i n \tau}.$$ 
 
-Note that a modular form $f$ is said to be a **cusp form** when $a_0=0$ (i.e. $f$ vanishes at the cusp $\infty$).
+Note that a modular form $f$ is said to be a **cusp form** when $a_0=0$ (i.e., $f$ vanishes at the cusp $\infty$).
 
 ### Examples
 One of the most natural examples of modular forms arises from the quadratic form. Let $Q$ be a (positive definite integral) quadratic form in $2$ (or, $2k$) variables, for example, $Q(x,y) = x^2+y^2$. Then we can define the **Theta function** 
