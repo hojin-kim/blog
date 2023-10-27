@@ -1,5 +1,0 @@
-\begin{tikzcd}
-    GL_2(\mathbb{R}) \arrow[rd, "F"] \arrow[d, "g\mapsto g.i"'] &\\
-    \mathcal{H} \arrow[r, "f"'] & \mathbb{C}
-    \end{tikzcd}    
-\end{document}

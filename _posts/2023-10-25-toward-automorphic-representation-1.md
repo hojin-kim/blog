@@ -2,7 +2,7 @@
 layout: post
 title:  "Toward Automorphic Representation 1"
 date:   2023-10-25 23:00:00 +0900
-category: math/number-theory
+category: math/number-theory/automorphic-forms
 ---
 
 Recently, I have been learning about the basic notions of automorphic forms, and I want to document what I have learned.
@@ -30,7 +30,7 @@ A function $f\colon \mathcal{H}\to \mathbb{C}$ is said to be a (holomorphic) mod
 1. **Holomorphy**:
     $f$ is holomorphic on $\mathcal{H}$, 
 2. **Modularity**:
-    $$(f|_k\gamma)(\tau) = f(\tau)$$ for all $\gamma \in \Gamma$$,
+    $$(f|_k\gamma)(\tau) = f(\tau)$$ for all $$\gamma \in \Gamma$$,
 3. **Growth condition**:
     $f$ extends holomorphically to every cusp of $\Gamma$.
 
@@ -77,4 +77,4 @@ $\Delta(\tau)$ is the unique cusp form of weight $12$ and level $SL_2(\mathbb{Z}
 
 ---
 References:
-- Cogdell, James W., Henry H. Kim, and M. Ram Murty. *Lectures on automorphic $L$-functions*. Vol. 20. American Mathematical Soc., 2004.
+- Cogdell, James W.; Kim, Henry H.; Murty, M. Ram. **Lectures on automorphic L-functions**. Fields Inst. Monogr., 20. *American Mathematical Society, Providence, RI*, 2004.
