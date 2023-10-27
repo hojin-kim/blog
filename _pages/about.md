@@ -9,11 +9,13 @@ Ph.D. Candidate at [Department of Mathematical Sciences, KAIST](https://mathsci.
 Advisor: professor [Bo-Hae Im][BHIm]
 
 ## Reserch Interests
-Number theory
+Number Theory
+
+Currently, I'm interested in the nature of certain period polynomials, especially their unimodularity properties; also I'm working on the algebraic structures of the Multiple Zeta Values in positive characteristic.
 
 ## Educations
 - KAIST, Dept. of Mathematical Sciences, Bachelor's degree, Feb. 2009 - Feb. 2014
-- KAIST, Dept. of Mathematical Sciences, Mastor's program, Mar. 2014 - Feb. 2016
+- KAIST, Dept. of Mathematical Sciences, Master's program, Mar. 2014 - Feb. 2016
 - KAIST, Dept. of Mathematical Sciences, Doctoral program, Mar. 2016 - (current)
   - Leave of absence, AI researcher in TmaxData & TmaxAI for alternative civilian service, Sep. 2018 - Aug. 2020
 
@@ -42,7 +44,7 @@ I have TA experiences as follows;
 * Introduction to Number Theory (2015S, 2016S, 2022S, 2023S)
 * Linear Algebra (2017S, 2017F, 2020F, 2021F, 2022F)
 
-I recieved the Best TA award in [2021 Spring](https://mathsci.kaist.ac.kr/home/2021/09/2021년-봄학기-우수조교상) and [2022 Spring](https://mathsci.kaist.ac.kr/home/2022/09/2022년-봄학기-우수조교상-시상식/).
+I received the Best TA award in [2021 Spring](https://mathsci.kaist.ac.kr/home/2021/09/2021년-봄학기-우수조교상), [2022 Spring](https://mathsci.kaist.ac.kr/home/2022/09/2022년-봄학기-우수조교상-시상식/) and [2023 Spring](https://mathsci.kaist.ac.kr/home/2023/09/2023년-bk21-plus-대학원-워크샵-개최/).
 
 ## Skills
 ### Programming
@@ -60,14 +62,14 @@ I speak
 - Spanish (very basic conversation).
 
 ## Contact
-Office address : (34141) Room 4420, Building E6, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
+Office address: (34141) Room 4420, Building E6, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
 
-Email address : `ho***k**@kaist.ac.kr` ; you can fill asterisks(`*`) with characters from my name.
+Email address: `ho***k**@kaist.ac.kr`; you can fill asterisks(`*`) with characters from my name.
 
-Homepage (hosted by affilation) : [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this about page.
+Homepage (hosted by affiliation): [https://mathsci.kaist.ac.kr/~hjkim/](https://mathsci.kaist.ac.kr/~hjkim/). This homepage is meant to be similar to this `about me` page.
 
 ---
-_Last updated: April 7th, 2023._
+_Last updated: October 27th, 2023._
 
 [IKLNdP2023b]: https://hal.science/hal-04240841
 [IKLNdP2023a]: https://arxiv.org/abs/2304.02337
