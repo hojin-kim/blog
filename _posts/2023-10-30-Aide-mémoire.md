@@ -4,7 +4,7 @@ title:  "Aide-mémoire"
 date:   2023-10-30 14:00:00 +0900
 category: math/
 ---
-This post will be updated on.
+This post may be updated continuously.
 
 ## Category theory
 <table>
