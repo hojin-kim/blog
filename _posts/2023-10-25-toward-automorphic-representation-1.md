@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Toward Automorphic Representation 1"
+title:  "Toward Automorphic Representation 1: Modular forms"
 date:   2023-10-25 23:00:00 +0900
 category: math/number-theory/automorphic-forms
 ---

@@ -1,0 +1,175 @@
+---
+layout: post
+title:  "Aide-mémoire"
+date:   2023-10-30 14:00:00 +0900
+category: math/
+---
+This post will be updated on.
+
+## Category theory
+<table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: center">
+                                    Limit 
+                                    <br/>
+                                     Inverse limit 
+                                    <br/>
+                                     Projective limit
+                                </th>
+                                <th style="text-align: center">
+                                    Colimit 
+                                    <br/>
+                                     Direct limit 
+                                    <br/>
+                                     Inductive limit
+                                </th>
+                                <th style="text-align: center"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center">origin of arrows</td>
+                                <td style="text-align: center">target of arrows</td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">product</td>
+                                <td style="text-align: center">coprodut</td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    product (inverse limit) in 
+                                    <br/>
+                                     the 
+                                    <strong>2nd</strong>
+                                     variable
+                                </td>
+                                <td style="text-align: center">
+                                    coproduct (direct limit) in  
+                                    <br/>
+                                     the 
+                                    <strong>1st</strong>
+                                     var
+                                </td>
+                                <td style="text-align: center">$\operatorname{Hom}$ sends … to product</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">cartesian product</td>
+                                <td style="text-align: center">disjoint union</td>
+                                <td style="text-align: center">in $\textsf{Set}$</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center">direct product = direct sum  $\oplus$</td>
+                                <td style="text-align: center">in $\textsf{Ab}$, $R$-$\textsf{Mod}$, $K$-$\textsf{VectSpace}$, etc.</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">direct product</td>
+                                <td style="text-align: center">free product</td>
+                                <td style="text-align: center">in $\textsf{Grp}$</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    product topology
+                                    <br/>
+                                     coarsest among conti. projections $X\to X_i$
+                                </td>
+                                <td style="text-align: center">
+                                    disjoint union topology
+                                    <br/>
+                                     finest among conti. injections $X_i\to X$
+                                </td>
+                                <td style="text-align: center">in $\textsf{Top}$</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    pullback
+                                    <br/>
+                                    limit of \(*\rightarrow*\leftarrow*\)
+                                </td>
+                                <td style="text-align: center">
+                                    pushout
+                                    <br/>
+                                    colimit of \(*\leftarrow*\rightarrow*\)
+                                </td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    equalizer
+                                    <br/>
+                                    $\text{coeq}(f,g) \to X\stackrel{f,g}{\rightrightarrows}Y$
+                                </td>
+                                <td style="text-align: center">
+                                    coequalizer
+                                    <br/>
+                                    $X\stackrel{f,g}{\rightrightarrows} Y \to \text{coeq}(f,g)$
+                                </td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">kernel</td>
+                                <td style="text-align: center">cokernel (quotient)</td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr style="border-bottom: solid black">
+                                <td style="text-align: center">terminal object</td>
+                                <td style="text-align: center">initial object</td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    $p$-adic integers $\mathbb{Z}_p$
+                                    <br/>
+                                    $\mathbb{Z}/p^{n+1}\mathbb{Z}\stackrel{\text{proj}}{\to}\mathbb{Z}/p^{n}\mathbb{Z}$
+                                </td>
+                                <td style="text-align: center">
+                                    Prüfer group $\mathbb{Z}(p^\infty)$
+                                    <br/>
+                                    $\mathbb{Z}/p^{n}\mathbb{Z}\to\mathbb{Z}/p^{n+1}\mathbb{Z}$; $a\mapsto pa$
+                                </td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">
+                                    profinite integer $\hat{\mathbb{Z}}\cong \prod_{p&lt;\infty} \mathbb{Z}_p$
+                                    <br/>
+                                    $\mathbb{Z}/mn\mathbb{Z}\stackrel{\text{proj}}{\to}\mathbb{Z}/n\mathbb{Z}$
+                                </td>
+                                <td style="text-align: center">
+                                    $\mathbb{Q}/\mathbb{Z}$
+                                    <br/>
+                                    $\mathbb{Z}/n\mathbb{Z}\to\mathbb{Z}/mn\mathbb{Z}$; $a \mapsto ma$
+                                </td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center"></td>
+                                <td style="text-align: center">
+                                    Stalk of sheaf $\mathcal{F}_x$
+                                    <br/>
+                                    $\mathcal{F}(U)\to\mathcal{F}(V)$; $s \mapsto s|_V$
+                                </td>
+                                <td style="text-align: center"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+<!-- | Limit <br> Inverse limit <br> Projective limit| Colimit <br> Direct limit <br> Inductive limit||
+|:---:|:---:|:---:|
+|origin of arrows|target of arrows||
+|product|coprodut||
+|product (inverse limit) in <br> the **2nd** variable|coproduct (direct limit) in  <br> the **1st** var|$\operatorname{Hom}$ sends ... to product|
+|cartesian product|disjoint union|in $\textsf{Set}$|
+|direct product = direct sum  $\oplus$| |in $\textsf{Ab}$, $R$-$\textsf{Mod}$, $K$-$\textsf{VectSpace}$, etc.|
+|direct product|free product|in $\textsf{Grp}$|
+|product topology<br> coarsest among conti. projections $X\to X_i$ |disjoint union<br> finest among conti. injections $X_i\to X$|in $\textsf{Top}$|
+|pullback<br>limit of $$*\rightarrow*\leftarrow* $$|pushout<br>colimit of $$*\leftarrow*\rightarrow* $$|
+|equalizer<br>$\text{coeq}(f,g) \to X\stackrel{f,g}{\rightrightarrows}Y$|coequalizer<br>$X\stackrel{f,g}{\rightrightarrows} Y \to \text{coeq}(f,g)$|
+|kernel|cokernel (quotient)||
+|terminal object|initial object||
+|Examples|||
+|$p$-adic integers $\mathbb{Z}_p$<br>$\mathbb{Z}/p^{n+1}\mathbb{Z}\to\mathbb{Z}/p^{n}\mathbb{Z}$|Prüfer group $\mathbb{Z}(p^\infty)$<br>$\mathbb{Z}/p^{n}\mathbb{Z}\to\mathbb{Z}/p^{n+1}\mathbb{Z}$; $a\mapsto pa$||
+|profinite integer $\hat{\mathbb{Z}}\cong \prod_{p<\infty} \mathbb{Z}_p$<br>projections $\mathbb{Z}/mn\mathbb{Z}\to\mathbb{Z}/n\mathbb{Z}$|$\mathbb{Q}/\mathbb{Z}$<br>$\mathbb{Z}/n\mathbb{Z}\to\mathbb{Z}/mn\mathbb{Z}$; $a \mapsto ma$||
+||Stalk of sheaf $\mathcal{F}_x$<br>$\mathcal{F}(U)\to\mathcal{F}(V)$; $s \mapsto s\|_V$|| -->

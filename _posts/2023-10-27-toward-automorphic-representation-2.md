@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Toward Automorphic Representation 2"
+title:  "Toward Automorphic Representation 2: Waveforms"
 date:   2023-10-27 11:00:00 +0900
 category: math/number-theory/automorphic-forms
 ---
