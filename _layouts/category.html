@@ -1,62 +1,73 @@
 ---
 layout: default
 ---
-  {% assign cn = page.catname%}
-  {% if page.catname contains '/' %} 
-    <h2> Posts in 
-    {% assign category_path = page.catname | split: "/" %}
-    {%- capture loc-%} {{site.url | escape}}/category {%- endcapture -%}
-    {%- for cat in category_path -%}
-      {%- capture loc -%}{{loc}}/{{cat}}{%- endcapture -%}
-      {%- if forloop.rindex !=1 -%}
-      <a href="{{loc}}"><span class="category-name">{{cat}} </span></a><span style= "font-weight: lighter"> / </span> <span style="font-size: smaller;">
-      {%- else -%}
-      <span class="category-name">{{cat}}</span>
-      {% endif -%}
-    {%- endfor -%}
-    {% for cat in category_path %}
-      </span>
+  <div>
+    {% assign cn = page.catname%}
+    {% if page.catname contains '/' %} 
+      {% assign category_path = page.catname | split: "/" %}
+      <h2> Posts in 
+      {%- capture loc-%} {{site.url | escape}}/category {%- endcapture -%}
+      {%- for cat in category_path -%}
+        {%- capture loc -%}{{loc}}/{{cat}}{%- endcapture -%}
+        {%- if forloop.rindex !=1 -%}
+          <a href="{{loc}}"><span class="category-name"> {{cat}}</span></a><span style= "font-weight: lighter"> / </span><span style="font-size: smaller;">
+        {%- else -%}
+          <span class="category-name">{{cat}}</span>
+        {% endif -%}
+      {%- endfor -%}
+      {% for cat in category_path %}
+        </span>
+      {% endfor %}
+      </h2>
+    {% else %} 
+      <h2> Posts in  <span class="category-name"> {{ page.catname }}</span> </h2>
+    {% endif %} 
+    
+    {% assign filtered_posts = site.posts | where_exp: 'item', 'item.category contains page.catname' %} 
+    <!-- 
+      There is a potential issue in the above line. 
+
+      `contains` should be replaced by `startswith` thing. Apparently 
+      there is no such command in Jekyll, and it is cumbersome 
+      to make it in some other ways. 
+
+      There will be no problems if the category names are not go messy; 
+      for example, subcategory names that contains some other (parent) 
+      category name should be prohibited. For example, `miscellaneous/math` 
+      should be not exist in the category hierarchy.
+    -->
+    <ul style="list-style-type: none; margin-left: 0">
+    {% for post in filtered_posts %}
+        <li> <small> {{ post.date | date_to_string}}</small> &nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
     {% endfor %}
-    </h2>
-  {% else %} 
-  <h2> Posts in  <span class="category-name"> {{ page.catname }}</span> </h2>
-  {% endif %} 
+    </ul>
+    <hr>
+  </div>
   
-  {% assign filtered_posts = site.posts | where_exp: 'item', 'item.category contains page.catname' %} 
-  <!-- 
-    There is a potential issue in the above line. 
+  <div>
+    {% assign subcategories = site.categories | where_exp: 
+      'item', 
+      'item.catname contains page.catname' %}
+    {% assign subcategories = subcategories | where_exp: 
+      'item', 
+      'item.catname != page.catname' %}
+    {% if subcategories.size>0 %}
+      <br>
+      <span class="category-name">{{cn}}</span> has the following subcategories:
+      <ul style="list-style-type: '- '">
+        {% for cat in subcategories %}
+        <li>
+          <a class = "category-name" href="{{ site.baseurl }}/category/{{ cat.catname }}">{{ cat.catname }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <hr>
+    {% endif %}
+  </div>
 
-    `contains` should be replaced by `startswith` thing. Apparently 
-    there is no such command in Jekyll, and it is cumbersome 
-    to make it in some other ways. 
-
-    There will be no problems if the category names are not go messy; 
-    for example, subcategory names that contains some other (parent) 
-    category name should be prohibited. For example, `miscellaneous/math` 
-    should be not exist in the category hierarchy.
-  -->
-  <ul style="list-style-type: none; margin-left: 0">
-  {% for post in filtered_posts %}
-      <li> <small> {{ post.date | date_to_string}}</small> &nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-  {% endfor %}
-  </ul>
-  <hr>
-  <br>
-  {% assign subcategories = site.categories | where_exp: 
-    'item', 
-    'item.catname contains page.catname' %}
-  {% assign subcategories = subcategories | where_exp: 
-    'item', 
-    'item.catname != page.catname' %}
-  {% if subcategories.size>0 %}
-  <span class="category-name">{{cn}}</span> has the following subcategories:
-  <ul style="list-style-type: '- '">
-  {% for cat in subcategories %}
-  <li ><a class = "category-name" href="{{ site.baseurl }}/category/{{ cat.catname }}">{{ cat.catname }} </a>
-    </li>
-  {% endfor %}
-  </ul>
-  {% endif %}
-  <br>
-  See all categories <a href="{{ baseurl }}/category">here</a>.
+  <div>
+    <br>
+    See all categories <a href="{{ baseurl }}/category">here</a>.
+  </div>
+  <!-- TODO: Remove the br tags by using css -->

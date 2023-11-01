@@ -17,9 +17,22 @@ layout: default
 
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
+    {%- for cat in site.categories -%}
+      {% if cat.catname == page.category %}
+        {% if cat.category_header %}
+          <details>
+            <summary>On <span class="category-name">{{- page.category | escape -}}</span>: (click to expand/collapse)</summary>
+            {{cat.content | newline_to_br}}
+            <hr>
+          </details>
+        {% endif %}
+      {% endif %}
+    {%- endfor -%}
   </header>
-
+  
+  
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -27,6 +40,6 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
+  
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
