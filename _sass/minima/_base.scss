@@ -72,6 +72,12 @@ figcaption {
   font-size: $small-font-size;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-size: $small-font-size;
+}
+
 
 
 /**
@@ -251,4 +257,15 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+.footnotes::before {
+  content: "주.";
+  display: block;
+  // background-color: #1a1a1a;
+  color: $text-color;
+  background-color: $grey-color;
+  height: 1px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
