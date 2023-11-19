@@ -11,9 +11,9 @@ Waveform is usually called Maass waveform, but I prefer to call it waveform for 
 
 ## Modular form again 
 
-Let $$\Gamma = \Gamma_0(N)$$. 
+Let $$\Gamma = \Gamma_0(N)$$.
 
-Let $$f \in M_k(\Gamma, \chi)$$ be a modular form (with character $\chi$). We define a non-holomorphic function $$f^*(\tau) := y^{k/2}f(\tau)$$, where $$\tau = x+iy$$. ($$x, y\in \mathbb{R}$$.) Note that we lost the holomorphy, but still, we can think of $f^*$ as an analytic function of two variables $x$ and $y$.
+Let $$f \in M_k(\Gamma, \chi)$$ be a modular form (with character $\chi$). We define a non-holomorphic function $$f^*(\tau) := y^{k/2}f(\tau)$$, where $$\tau = x+iy$$. ($$x, y\in \RR$$.) Note that we lost the holomorphy, but still, we can think of $f^*$ as an analytic function of two variables $x$ and $y$.
 
 We define the double-slash operator $$(f^*\|_k \gamma)(\tau) := \left(\dfrac{c\tau + d}{\|c\tau + d\|}\right)^{-k} f^*(\gamma.\tau).$$ Note that the double slash operator is the modified version for the definition of $f^*$; one can easily check that $$\Im (\gamma.\tau) = \frac{\Im(\tau)}{\|c\tau+d\|^2}$$ and $$f^*\|_k\gamma = f^*$$. 
 
@@ -25,10 +25,10 @@ We drop the holomorphy condition but require that the functions have to be an ei
 
 The above is the waveforms of weight 0. We define the waveforms with weight $k$ below. 
 
-Let $$\Gamma \subseteq SL_2(\mathbb{R})$$ be a discrete subgroup. We define the smooth functions $f$ on $$\mathcal{H}$$ to be a **waveform** of type $\nu$, weight $k$, character $\chi$ and level $$N$$ if 
-1. **Modularity**: $$(f\|_k\gamma) (\tau) = \chi(d) f(\tau)$$ for all $\gamma \in \Gamma$, $\tau \in \mathcal{H}$, with the double slash operator defined above. ($$\chi(\gamma)=\chi(d)$$.)
+Let $$\Gamma \subseteq \SL_2(\RR)$$ be a discrete subgroup. We define the smooth functions $f$ on $$\HH$$ to be a **waveform** of type $\nu$, weight $k$, character $\chi$ and level $$N$$ if 
+1. **Modularity**: $$(f\|_k\gamma) (\tau) = \chi(d) f(\tau)$$ for all $\gamma \in \Gamma$, $\tau \in \HH$, with the double slash operator defined above. ($$\chi(\gamma)=\chi(d)$$.)
 
-2. **Eigenfunction**: $$f$$ is an eigenfunction of $\Delta_k$ above, i.e. $\Delta_k (f) = \nu(1-\nu)f$ for some $\nu \in \mathbb{C}$. 
+2. **Eigenfunction**: $$f$$ is an eigenfunction of $\Delta_k$ above, i.e. $\Delta_k (f) = \nu(1-\nu)f$ for some $\nu \in \CC$. 
 3. **Growth condition**: $$f(\tau)$$ has moderate growth at every cusp.
 
 4. (optional) $$f$$ is in $L^2$-space, i.e. $$\int_{Y_0(N)}\\|f(\tau)\\|^2 \frac{dxdy}{y^2}<\infty$$.
@@ -53,7 +53,7 @@ Again let $$k$$, $$N\ge1$$ are integers, and $\chi$ be a mod $$N$$ Dirichlet cha
 
 Let $$f\in \mathcal{A}_{k, \chi}^*(\Gamma_0(N))$$. We define the **Hecke operator** $$T_n$$ for $$n\ge1$$ as follows:
 
-$$T_n f(\tau) := n^{-1/2}\sum_{ad=n, d>0} \chi(d) \sum_{b=1}^d f\left(\dfrac{a\tau+b}{d}\right).\quad (\tau \in \mathcal{H})$$
+$$T_n f(\tau) := n^{-1/2}\sum_{ad=n, d>0} \chi(d) \sum_{b=1}^d f\left(\dfrac{a\tau+b}{d}\right).\quad (\tau \in \HH)$$
 
 We have $T_m T_n = \sum_{d \mid (m, n)} \chi(d) T_{mn/d^2}$, which implies that $T_n$ and $T_m$ commutes for all $n$, $m$. Also, they commute with the hyperbolic Laplacian $$\Delta_k$$. 
 

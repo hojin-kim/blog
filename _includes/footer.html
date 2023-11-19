@@ -37,8 +37,19 @@
 <script>
   MathJax = { 
     tex: { 
-      inlineMath: [['$', '$'], ['\\(', '\\)']] }, 
-    };
+      inlineMath: [['$', '$'], ['\\(', '\\)']], 
+      macros: {
+        NN: "{\\mathbb N}",
+        ZZ: "{\\mathbb Z}",
+        QQ: "{\\mathbb Q}",
+        RR: "{\\mathbb R}",
+        CC: "{\\mathbb C}",
+        HH: "{\\mathbb H}",
+        SL: "\\operatorname{SL}",
+        PSL: "\\operatorname{PSL}",
+      } 
+    }
+  };
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

@@ -97,3 +97,26 @@ This blog uses MathJax for the $$\TeX$$ rendering, but it does not support some 
 To get the standalone images of commutative diagrams, I used [tikz2svg](https://juan.benet.ai/blog/2014-03-09-tikz2svg/), which is dependent on [pdf2svg](https://formulae.brew.sh/formula/pdf2svg). 
 
 I'm not sure if the scaling of SVG would align with the MathJax equations. This would be one of the TODOs.
+
+--- 
+update (2023-11-19)
+
+I found that one can define the macros in the MathJax snippet. Now the lines in `footer.html` is as follows:
+
+```html
+<script>
+  MathJax = { 
+    tex: { 
+      inlineMath: [['$', '$'], ['\\(', '\\)']], 
+      macros: {
+        NN: "{\\mathbb N}",
+        ZZ: "{\\mathbb Z}",
+        // etc
+      } 
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
+When writing post, `$$\NN$$` is rendered as `$$\mathbb N$$` and shown as $$\NN$$. Check the MathJax documentation [page](https://docs.mathjax.org/en/latest/input/tex/macros.html) for further details.
