@@ -1,5 +1,5 @@
 ---
 catname: "blog"
 layout: "category"
-permalink: "category/blog"
+permalink: /category/blog
 ---

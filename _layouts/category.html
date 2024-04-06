@@ -6,10 +6,10 @@ layout: default
     {% if page.catname contains '/' %} 
       {% assign category_path = page.catname | split: "/" %}
       <h2> Posts in 
-      {%- capture loc-%} {{site.url | escape}}/category {%- endcapture -%}
+      {%- capture loc-%} {{ site.baseurl | escape}}/category {%- endcapture -%}
       {%- for cat in category_path -%}
         {%- capture loc -%}{{loc}}/{{cat}}{%- endcapture -%}
-        {%- if forloop.rindex !=1 -%}
+        {%- if forloop.rindex !=1 -%} 
           <a href="{{loc}}"><span class="category-name"> {{cat}}</span></a><span style= "font-weight: lighter"> / </span><span style="font-size: smaller;">
         {%- else -%}
           <span class="category-name">{{cat}}</span>
@@ -38,7 +38,7 @@ layout: default
     -->
     <ul style="list-style-type: none; margin-left: 0">
     {% for post in filtered_posts %}
-        <li> <small> {{ post.date | date_to_string}}</small> &nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
+        <li> <small> {{ post.date | date_to_string}}</small> &nbsp;&nbsp;<a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
     </ul>
@@ -68,6 +68,6 @@ layout: default
 
   <div>
     <br>
-    See all categories <a href="{{ baseurl }}/category">here</a>.
+    See all categories <a href="{{ site.baseurl }}/category">here</a>.
   </div>
   <!-- TODO: Remove the br tags by using css -->

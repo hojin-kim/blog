@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 _serve.sh
 _posts/*_*
+*__*
+.DS_Store

@@ -1,5 +1,5 @@
 ---
 catname: "math/number-theory"
 layout: "category"
-permalink: "category/math/number-theory"
+permalink: /category/math/number-theory
 ---

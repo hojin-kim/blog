@@ -7,7 +7,7 @@ layout: default
 {% for post in categories %}
     {% assign parent_categories = post.catname | split: "/" %}
     <li> {% for idx in parent_categories %} &nbsp; {% if forloop.rindex==1 %} &nbsp; - {% endif %}{% endfor %}
-    <a class="category-name" href="{{ post.url }}">{{ post.title }}</a>
+    <a class="category-name" href="{{ site.baseurl }}/{{ post.permalink }}">{{ post.title }}</a>
     </li>
 {% endfor %}
 </ul>
