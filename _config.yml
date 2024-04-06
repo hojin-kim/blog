@@ -17,7 +17,7 @@ title: Some number theories and troublesomes
 email: hojinkim@kaist.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
   A grad student working on number theory
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: /blog # the subpath of your site, e.g. /blog
 url: https://hojin-kim.github.io # the base hostname & protocol for your site, e.g. http://example.com
 author: Hojin Kim
 twitter_username:
