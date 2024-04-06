@@ -1,5 +1,5 @@
 ---
 catname: "miscellaneous"
 layout: "category"
-permalink: "category/miscellaneous"
+permalink: /category/miscellaneous
 ---

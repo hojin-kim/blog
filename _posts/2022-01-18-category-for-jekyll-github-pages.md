@@ -76,7 +76,7 @@ I omitted some css settings etc., so the result may be different from the one yo
     </ul>
     <hr>
     
-    <h2> See all categories <a href="{{ baseurl }}/category">here</a></h2>
+    <h2> See all categories <a href="{{ site.baseurl }}/category">here</a></h2>
     ```
     {% endraw %}
 
@@ -107,7 +107,7 @@ I omitted some css settings etc., so the result may be different from the one yo
         The for loop `for post in filtered_posts` follows. For each post in filtered posts, the date (conveted into short format) and the title with link are shown. Note that `<ul> <li> ... </li> </ul>` is the standard HTML tag for list of items.
 
     *   Finally, I want to show the list of all categories in this blog. It can be given in this category page, but I thought that individuall page for the list of all categories can be exist. Since the category pages will be located in `(blog-url)/category/(category-name)`, I want `(blog-url)/category` to show the list of all category. Although there are no such page yet, we can make 
-        {% raw %}`<h2> See all categories <a href="{{ baseurl }}/category">here</a></h2>`{% endraw %}
+        {% raw %}`<h2> See all categories <a href="{{ site.baseurl }}/category">here</a></h2>`{% endraw %}
         line here.
     
 5.  Make a file `/category.md` in the top level. This page should show the list of all categories. This can be done in almost same way explained in 4 above.
@@ -150,7 +150,7 @@ The main structure for the category is done. I made some minor changes;
     {% raw %}
     ```html
     {%- if page.category -%}
-        • posted on  <a class="category-name" href="{{ baseurl }}/category/{{ page.category | escape }}">{{ page.category | escape }}</a> 
+        • posted on  <a class="category-name" href="{{ site.baseurl }}/category/{{ page.category | escape }}">{{ page.category | escape }}</a> 
     {%- endif -%}
     ```
     {% endraw %}

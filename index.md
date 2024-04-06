@@ -5,6 +5,6 @@
 layout: home
 list_title: Recent Posts
 ---
-Hi, I'm a graduate student working on number theory in KAIST. See [about page]({{site.baseurl}}/about).
+Hi, I'm a graduate student working on number theory in KAIST. See [about page]({{ site.baseurl }}/about).
 
 My recent posts are below:
