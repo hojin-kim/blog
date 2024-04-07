@@ -30,7 +30,14 @@ I decided to use `hojin.kim` for my academic homepage [mathsci.kaist.ac.kr/~hjki
 - It seemed that some web server configurations might do this; after checking the corresponding Apache2 configurations on `[dept webserver]:[...]/apache2/sites-available/` (with my read-only permission), I concluded that the server policy did not seem to allow such configurations for individuals. This means that I cannot link my personal domain directly to the academic homepage.
 - A quick workaround is a redirection. Instead of having another web server like AWS, I decided to use the GitHub page.
 - `hojin-kim.github.io` was already taken for this blog. After some more trial and error, I renamed the repository from `hojin-kim.github.io` to `blog`, so the blog url at that point was `hojin-kim.github.io/blog`.
-  - I was stuck at this point for a while, especially with the `site.baseurl` feature. To set `site.baseurl` to `/blog`, they say, the repository name itself should be `blog`; this was why I changed my repository name. (For now, I'm not sure the `baseurl` setting in `[repo-root]\_config.yml` was necessary since I don't need `hojin.kim/blog/` and `blog.hojin.kim` is sufficient. See the last section).
+  
+  I was stuck at this point for a while, especially with the `site.baseurl` feature. 
+
+  Say the url for a post in the blog is `hojin-kim.github.io/blog/math/20200101-title`. Then `hojin-kim.github.io` is `url`, and `/blog` is the baseurl, which means that all urls are follwed by url+baseurl. (The followed /math/20200101-title stands for the precise location of the post, relative to the url+baseurl).
+
+  Since my original plan was to set the blog url to `hojin.kim/blog`, I changed the repository name into `blog`, and also set the `baseurl : /blog` in `[repo-root]\_config.yml`. (Note that `some` repository is published under `github-id.github.io/some`). Because of this change, I had to do the overall fix of several Jekyll files and posts, since I haven't take care of `baseurl` feature before (as it was empty).
+
+  However, at last, the blog url is set to `blog.hojin.kim`, and `site.baseurl` is set to be empty again.
 - Then I created the new repository `hojin-kim.github.io` for the root GitHub page, published it, and set the custom domain to `hojin.kim`.
 - I made some settings on the domain provider website. I set the `CMAME` record to
   - TYPE: `CNAME`,
@@ -57,7 +64,7 @@ Up until this moment, I was thinking of using `hojin.kim/blog` for this blog. Ho
 
 So I decided to use `blog.hojin.kim` for the blog. I spent other hours on this, which shouldn't take that long. Actually, the steps are simple.
 
-- Edit your Jekyll files again. For example, I set `baseurl: /blog` in `[repo-root]\_config.yml`. I also had to change some other files, like `href` tags in the layout files.
+- Edit your Jekyll files again if needed. For example, I changed the `url` of `_config.yml`.
 
   I checked that everything worked fine when tested locally, but there were still some problems when hosted on GitHub. You might have to check the source code for the rendered html files, and check that each asset file (like `css` files) is linked correctly.
 - Publish the repository, and set the custom domain to `blog.hojin.kim`.
@@ -70,6 +77,13 @@ So I decided to use `blog.hojin.kim` for the blog. I spent other hours on this, 
 
 ## Remaining TODOs
 
-1. The Google search result now points to the outdated urls; I should check the Google Search Console and update the Sitemap. -- However, who cares? I mean, I know this site is very rarely visited.
-2. Some minor settings, like Disqus comments etc. (I already changed robots.txt setting.)
-3. Check if the `baseurl` thing was necessary. The existence of two working urls, `blog.[...]` and `[...]/blog`, is not pleasant and I want to check if I can get rid of the `baseurl` setting and deprecate the `[...]/blog` url. Maybe I should check the settings `url` (for the base hostname) and `baseurl` on `\_config.yml`.
+- [ ] The Google search result now points to the outdated urls; I should check the Google Search Console and update the Sitemap. -- However, who cares? I mean, I know this site is very rarely visited.
+- [ ] Some minor settings, like Disqus comments etc.
+  - [ ] Disqus
+  - [x] Sitemap.xml
+  - [x] Robots.txt
+  - [ ] Google Analytics 
+  - [ ] Broken links in previous posts or etc?
+  - [ ] Some other?
+- [x] ~~Check if the `baseurl` thing was necessary. The existence of two working urls, `blog.[...]` and `[...]/blog`, is not pleasant and I want to check if I can get rid of the `baseurl` setting and deprecate the `[...]/blog` url. Maybe I should check the settings `url` (for the base hostname) and `baseurl` on `\_config.yml`.~~
+  * Updated: `baseurl` is now removed again, with `url: blog.hojin.kim`.
