@@ -8,7 +8,7 @@ Now this blog has categories.
 
 There will be several ways, and here is how I did it. (I tried to write it in detail; I wish this helps somebody, especially, me after few years.) 
 
-I omitted some css settings etc., so the result may be different from the one you see, and may looks bad. You can refer to my [github repo](https://github.com/hojin-kim/blog) to see the full codes.
+I omitted some css settings etc., so the result may be different from the one you see, and may looks bad. You can refer to my [github repo](https://github.com/hojin-kim/blog) to see the full codes. 
 
 1. Set your `_config.yml` file. Add the following lines:
 
@@ -19,8 +19,8 @@ I omitted some css settings etc., so the result may be different from the one yo
     ```
 
     Refer to [this link](https://jekyllrb.com/docs/collections/) to know what the collections are. 
-    
-    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/category/miscellaneous]({{ site.url }}/{{ site.baseurl }}category/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
+
+    We are making `categories` collection with `output: true` option. This option means that we will have the page of each category, for example [(blog-url)/category/miscellaneous]({{ site.baseurl }}/category/miscellaneous) for the '<span class="category-name">miscellaneous</span>' category. Let's call them 'category pages'.
     
     The category page will show the list of posts in corresponding category.
 
@@ -155,7 +155,7 @@ The main structure for the category is done. I made some minor changes;
     ```
     {% endraw %}
 
-7. There is a list of recent posts in the [main page]({{ site.url | escape}}/{{site.baseurl}}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part: 
+7. There is a list of recent posts in the [main page]( {{ site.url }}). With the date of each posts, the category of each post are now shown in the list. See `/_layouts/home.html', especially the following part:
     
     {% raw %}
     ```html

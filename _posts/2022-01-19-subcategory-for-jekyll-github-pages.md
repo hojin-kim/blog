@@ -4,7 +4,7 @@ title:  "Subcategory for Jekyll Github pages"
 date:   2022-01-19 22:30:00 +0900
 category: blog
 ---
-Now this blog has subcategories. Check [math](https://blog.hojin.kim/category/math) category page and its subcategory [math/number-theory](https://blog.hojin.kim/category/math/number-theory) category page. The depth of subcategories can be greater than 2.
+Now this blog has subcategories. Check [math]({{ site.baseurl }}/category/math) category page and its subcategory [math/number-theory]({{ site.baseurl }}/category/math/number-theory) category page. The depth of subcategories can be greater than 2.
 
 I don't like the way I implemented this feature, so I don't want to explain it in detail. Check the [difference](https://github.com/hojin-kim/blog/commit/a44f42d5ab9325a0d684d625407e7e10ce74a54c) to see the changes.
 
