@@ -1,1 +1,1 @@
-Repository for my github page [hojin-kim.github.io/blog](http://hojin-kim.github.io/blog) based on [Jekyll minima](https://github.com/jekyll/minima).
+Repository for my github page [blog.hojin.kim](http://blog.hojin.kim) based on [Jekyll minima](https://github.com/jekyll/minima).

@@ -8,7 +8,7 @@ Now this blog has categories.
 
 There will be several ways, and here is how I did it. (I tried to write it in detail; I wish this helps somebody, especially, me after few years.) 
 
-I omitted some css settings etc., so the result may be different from the one you see, and may looks bad. You can refer to my [github repo](https://github.com/hojin-kim/hojin-kim.github.io) to see the full codes. 
+I omitted some css settings etc., so the result may be different from the one you see, and may looks bad. You can refer to my [github repo](https://github.com/hojin-kim/blog) to see the full codes.
 
 1. Set your `_config.yml` file. Add the following lines:
 

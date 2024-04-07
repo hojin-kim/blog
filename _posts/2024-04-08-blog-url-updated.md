@@ -71,4 +71,5 @@ So I decided to use `blog.hojin.kim` for the blog. I spent other hours on this, 
 ## Remaining TODOs
 
 1. The Google search result now points to the outdated urls; I should check the Google Search Console and update the Sitemap. -- However, who cares? I mean, I know this site is very rarely visited.
-2. Check if the `baseurl` thing was necessary. The existence of two working urls, `blog.[...]` and `[...]/blog`, is not pleasant and I want to check if I can get rid of the `baseurl` setting and deprecate the `[...]/blog` url.
+2. Some minor settings, like Disqus comments etc. (I already changed robots.txt setting.)
+3. Check if the `baseurl` thing was necessary. The existence of two working urls, `blog.[...]` and `[...]/blog`, is not pleasant and I want to check if I can get rid of the `baseurl` setting and deprecate the `[...]/blog` url. Maybe I should check the settings `url` (for the base hostname) and `baseurl` on `\_config.yml`.

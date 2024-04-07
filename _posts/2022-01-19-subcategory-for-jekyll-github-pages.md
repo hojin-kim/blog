@@ -4,9 +4,9 @@ title:  "Subcategory for Jekyll Github pages"
 date:   2022-01-19 22:30:00 +0900
 category: blog
 ---
-Now this blog has subcategories. Check [math](https://hojin-kim.github.io/category/math) category page and its subcategory [math/number-theory](https://hojin-kim.github.io/category/math/number-theory) category page. The depth of subcategories can be greater than 2.
+Now this blog has subcategories. Check [math](https://blog.hojin.kim/category/math) category page and its subcategory [math/number-theory](https://blog.hojin.kim/category/math/number-theory) category page. The depth of subcategories can be greater than 2.
 
-I don't like the way I implemented this feature, so I don't want to explain it in detail. Check the [difference](https://github.com/hojin-kim/hojin-kim.github.io/commit/a44f42d5ab9325a0d684d625407e7e10ce74a54c) to see the changes.
+I don't like the way I implemented this feature, so I don't want to explain it in detail. Check the [difference](https://github.com/hojin-kim/blog/commit/a44f42d5ab9325a0d684d625407e7e10ce74a54c) to see the changes.
 
 In brief, 
 * I defined the category structures like `math/number-theory`. The `category` key of each post can be given like `category: math` or `category: math/number-theory`, etc.
@@ -50,3 +50,6 @@ Possible issues on this implementation:
 * I think there are no `startswith`-like command for strings in Jekyll. I used `contains` instead; this means that I cannot make subcategory with another category name. For example, `math/history-of-mathematics` category will cause some problems.
 * `_layouts/category.html` file uses both of the string for category, for example `math/number-theory`, and the list of its ancestors, for example `["math"]`. This is absurd, and the structure can be simplified. 
   * (2022.1.20.) Now the variable `parent_category` of category page is not used.
+
+--- 
+Minor update on 8th April 2024: Some urls have been updated since the blog url has been changed.
