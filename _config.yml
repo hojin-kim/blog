@@ -17,7 +17,7 @@ title: Some number theories and troublesomes
 email: hojinkim@kaist.ac.kr
 description: >- 
   A grad student working on number theory
-baseurl: /blog 
+baseurl: /blog
 url: https://hojin-kim.github.io # the base hostname & protocol for your site, e.g. http://example.com
 author: Hojin Kim
 twitter_username:
