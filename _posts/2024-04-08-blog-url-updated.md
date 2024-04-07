@@ -24,7 +24,7 @@ This took much longer than it should have, so I'm writing this post to summarize
 
 I bought the domain from [Porkbun](https://porkbun.com/); one of my friends said that the price here is good. (I didn't double-check if it is, so you might want to check other providers as well).
 
-And I decided to use `hojin.kim` for my academic homepage [mathsci.kaist.ac.kr/~hjkim](http://mathsci.kaist.ac.kr/~hjkim). Here are the steps I took:
+I decided to use `hojin.kim` for my academic homepage [mathsci.kaist.ac.kr/~hjkim](http://mathsci.kaist.ac.kr/~hjkim). Here are the steps I took:
 
 - The domain provider said that I needed an IPv4 address for the root domain setting. I had no idea about this; after some research, I came to know that the tilde home directory generally does not have a dedicated IP address.
 - It seemed that some web server configurations might do this; after checking the corresponding Apache2 configurations on `[dept webserver]:[...]/apache2/sites-available/` (with my read-only permission), I concluded that the server policy did not seem to allow such configurations for individuals. This means that I cannot link my personal domain directly to the academic homepage.
