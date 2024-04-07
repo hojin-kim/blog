@@ -13,10 +13,10 @@ TL;DR: The url for this blog has been updated; it used to be `hojin-kim.github.i
 
 I discovered that `.kim` exists as a top-level domain. I checked that `hojin.kim` was not taken, and I bought it.
 
-And then I was confused about what to do with it. After some trial and error, I decided to use it as
+And then I was confused about what to do with it. Finally, after a lot of trial and error, I decided and set up the following urls:
 
 - `hojin.kim` for the academic homepage hosted by my affiliation, and
-- `hojin.kim/blog` for this blog.
+- `blog.hojin.kim` for this blog.
 
 This took much longer than it should have, so I'm writing this post to summarize the process and to remind myself in the future (or to help someone else who is in the same situation).
 
