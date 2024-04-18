@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Three-Body Noise Generator"
-date:   2024-04-08 17:30:00 +0900
+date:   2024-04-18 17:30:00 +0900
 category: misc
 ---
 
