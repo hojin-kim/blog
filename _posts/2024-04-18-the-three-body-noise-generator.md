@@ -24,9 +24,9 @@ Because of the visualization problem, my implementation is on the plane. Impleme
 
 After the simulator was finished, I wondered how to make this video more entertaining; the answer is always to add the perfect sound. I decided to create three noises, corresponding to the motion of each body.
 
-I set the center of mass, which is set to be fixed at the center of the screen, to be the origin $O$. Let $(r,\theta)$ be the polar coordinate of a body. I set the frequency of the noise to be proportional to $\theta$ and the amplitude to $r$; that is, the pitch of noise increases when the body rotates around the center (one octave higher when the body rotates one turn), and the volume increases when the body is far from the center, and vice versa for the opposite cases.
+I set the center of mass to be the origin. Let $(r,\theta)$ be the polar coordinate of a body. I set the frequency of the noise to be proportional to $\theta$ and the amplitude to $r$; that is, the pitch of noise increases when the body rotates around the center (one octave higher when the body rotates one turn), and the volume increases when the body is far from the center, and vice versa for the opposite cases.
 
-Note that the angle $\theta$ respects the multiple rotation, so that there is a continuous change in pitch when $\theta$ passes through $2n\pi$ (for integer $n$).
+Note that the angle $\theta$ respects the multiple rotations so that there is a continuous change in pitch when $\theta$ passes through $2\pi n$ (for integer $n$).
 
 ### Video generation
 
