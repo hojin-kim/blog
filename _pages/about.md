@@ -4,7 +4,8 @@ title: Hojin Kim 김호진
 alias_for_header: about me
 permalink: /about/
 ---
-Ph.D. Candidate at [Department of Mathematical Sciences, KAIST](https://mathsci.kaist.ac.kr/home/).
+See [my academic homepage](https://mathsci.kaist.ac.kr/~hjkim/).
+<!-- Ph.D. Candidate at [Department of Mathematical Sciences, KAIST](https://mathsci.kaist.ac.kr/home/).
 
 Advisor: professor [Bo-Hae Im][BHIm]
 
@@ -79,4 +80,4 @@ _Last updated: October 27th, 2023._
 [IKL2022]: https://arxiv.org/abs/2206.06798
 [BHIm]: https://sites.google.com/view/imbh/home
 [WLee]: https://sites.google.com/site/leewwmath
-[TNgoDac]: http://tuan.ngodac.perso.math.cnrs.fr
+[TNgoDac]: http://tuan.ngodac.perso.math.cnrs.fr -->
