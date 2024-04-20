@@ -5,6 +5,7 @@ alias_for_header: about me
 permalink: /about/
 ---
 See [my academic homepage](https://mathsci.kaist.ac.kr/~hjkim/).
+
 <!-- Ph.D. Candidate at [Department of Mathematical Sciences, KAIST](https://mathsci.kaist.ac.kr/home/).
 
 Advisor: professor [Bo-Hae Im][BHIm]
