@@ -39,7 +39,7 @@ I decided to use `hojin.kim` for my academic homepage [mathsci.kaist.ac.kr/~hjki
 
   However, at last, the blog url is set to `blog.hojin.kim`, and `site.baseurl` is set to be empty again.
 - Then I created the new repository `hojin-kim.github.io` for the root GitHub page, published it, and set the custom domain to `hojin.kim`.
-- I made some settings on the domain provider website. I set the `CMAME` record to
+- I made some settings on the domain provider website. I set the `CNAME` record to
   - TYPE: `CNAME`,
   - HOST: `www.hojin.kim`,
   - ANSWER: `hojin-kim.github.io.`.
@@ -68,7 +68,7 @@ So I decided to use `blog.hojin.kim` for the blog. I spent other hours on this, 
 
   I checked that everything worked fine when tested locally, but there were still some problems when hosted on GitHub. You might have to check the source code for the rendered html files, and check that each asset file (like `css` files) is linked correctly.
 - Publish the repository, and set the custom domain to `blog.hojin.kim`.
-- Make some settings on the domain provider. I set the `CMAME` record to
+- Make some settings on the domain provider. I set the `CNAME` record to
   - TYPE: `CNAME`,
   - HOST: `blog.hojin.kim`,
   - ANSWER: `hojin-kim.github.io.`,
