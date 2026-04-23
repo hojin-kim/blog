@@ -41,7 +41,7 @@ jobs:
       
       - name: Update and install gems
         run: |
-          bundle update nokogiri
+          bundle update
           bundle install
           
       - name: Setup Pages
