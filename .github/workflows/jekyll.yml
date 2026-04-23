@@ -40,7 +40,9 @@ jobs:
           bundler-cache: false
       
       - name: Update and install gems
-        run: bundle update
+        run: |
+          rm Gemfile.lock
+          bundle install
           
       - name: Setup Pages
         id: pages
