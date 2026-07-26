@@ -5,6 +5,6 @@
 layout: home
 list_title: Recent Posts
 ---
-Hi, I'm a postdoctoral researcher at the **Laboratoire de Mathématiques Nicolas Oresme (LMNO)**, University of Caen Normandy. I am working on number theory. See [about page]({{ site.baseurl }}/about).
+Hi, I'm a postdoctoral researcher at Chonnam National University. I am working on number theory. For further information, you may visit my [academic homepage](https://hojin.kim).
 
 My recent posts are below:
