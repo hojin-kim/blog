@@ -17,7 +17,7 @@ Let $$f \in M_k(\Gamma, \chi)$$ be a modular form (with character $\chi$). We de
 
 We define the double-slash operator $$(f^*\|_k \gamma)(\tau) := \left(\dfrac{c\tau + d}{\|c\tau + d\|}\right)^{-k} f^*(\gamma.\tau).$$ Note that the double slash operator is the modified version for the definition of $f^*$; one can easily check that $$\Im (\gamma.\tau) = \frac{\Im(\tau)}{\|c\tau+d\|^2}$$ and $$f^*\|_k\gamma = f^*$$. 
 
-Note that the modularity condition $$f\\|_k \gamma = f$$ is equivalent to $$f^*\|_k \gamma = f^*$$; we will restate the modularity condition for the waveforms with this double-slash operator.
+Note that the modularity condition $$f\|_k \gamma = f$$ is equivalent to $$f^*\|_k \gamma = f^*$$; we will restate the modularity condition for the waveforms with this double-slash operator.
 
 ## Waveforms
 
@@ -31,7 +31,7 @@ Let $$\Gamma \subseteq \SL_2(\RR)$$ be a discrete subgroup. We define the smooth
 2. **Eigenfunction**: $$f$$ is an eigenfunction of $\Delta_k$ above, i.e. $\Delta_k (f) = \nu(1-\nu)f$ for some $\nu \in \CC$. 
 3. **Growth condition**: $$f(\tau)$$ has moderate growth at every cusp.
 
-4. (optional) $$f$$ is in $L^2$-space, i.e. $$\int_{Y_0(N)}\\|f(\tau)\\|^2 \frac{dxdy}{y^2}<\infty$$.
+4. (optional) $$f$$ is in $L^2$-space, i.e. $$\int_{Y_0(N)}\|f(\tau)\|^2 \frac{dxdy}{y^2}<\infty$$.
 
 The space of smooth functions with 1. and 3. is written as $$\mathcal{A}^*_{k, \chi}(\Gamma)$$.
 
@@ -43,8 +43,8 @@ The class of Waveform is bigger than the class of modular forms thanks to the fo
 
 Since modularity is already shown, only the eigenfunction condition is the problem here. This can be shown by the direct calculation, with the holomorphy condition for $$f$$. 
 
-I mention that the Petersson norm on $$\mathcal{A}^*_{k, \chi}(\Gamma)$$ is defined as $$\|f\|^2 = \int_{Y_0(N)}\\|f(\tau)\\|^2 \frac{dxdy}{y^2}$$, and the Fourier(-Whittaker) expansion for waveform exists, and the notion of cusp waveform can be defined similarly, i.e. with the vanishing constant term.
-(Recall that the Petersson norm on holomorphic modular forms is defined as the similar integral but with integrand $$(\Im \tau)^k \\|f(\tau)\\|^2 \frac{dxdy}{y^2}$$, which aligns with the $y^{k/2}$ factors when we give rise the waveform from the holomorphic modular form.)
+I mention that the Petersson norm on $$\mathcal{A}^*_{k, \chi}(\Gamma)$$ is defined as $$\|f\|^2 = \int_{Y_0(N)}\|f(\tau)\|^2 \frac{dxdy}{y^2}$$, and the Fourier(-Whittaker) expansion for waveform exists, and the notion of cusp waveform can be defined similarly, i.e. with the vanishing constant term.
+(Recall that the Petersson norm on holomorphic modular forms is defined as the similar integral but with integrand $$(\Im \tau)^k \|f(\tau)\|^2 \frac{dxdy}{y^2}$$, which aligns with the $y^{k/2}$ factors when we give rise the waveform from the holomorphic modular form.)
 
 ## Hecke operators
 This could be treated in the last post, but we can discuss the Hecke operators and Atkin-Lehner theory on $$\mathcal{A}_{k, \chi}^*(\Gamma_0(N))$$, not only for holomorphic modular forms. (I only skimmed this part, so some errors might exist.)

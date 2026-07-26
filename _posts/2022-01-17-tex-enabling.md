@@ -20,7 +20,7 @@ How to (detail):
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 This code is from the [MathJax website](https://www.mathjax.org/#gettingstarted).
-2. Since you are customizing the jekyll theme, you need to copy the files in your theme gem file. For example, if you are using `minima` theme, check the installed location, for example, with termial command `$bundle info minima --path`. Copy & paste all directories in your github page home directory. 
+2. Since you are customizing the jekyll theme, you need to copy the files in your theme gem file. For example, if you are using `minima` theme, check the installed location, for example, with terminal command `$bundle info minima --path`. Copy & paste all directories in your github page home directory. 
 3. Open `/_layouts/default.html` (with your text editor not web browser) to check the html structure. 
     ```html
     {% raw %}
@@ -72,7 +72,7 @@ update (2022-01-19)
 
 I wrote that `$$...$$` will work for both inline & display math modes. However it doesn't work properly for the inline math equations in the title of posts. (I'm not sure why it works in post content.) So we need explicit delimiters for both inline mode and displaymath mode.
 
-The default delimeter for inline math equation is `\\( ... \\)`. (Refer to the [MathJax documentatation](https://docs.mathjax.org/en/latest/options/input/tex.html).) Since single `$` sign is used frequently, it is not recommended to use this as delimeter in general situation. However, I think I'll not use `$` symbols for other uses, so I set  both of `$...$` and ``\\(...\\)`` as inline math delimeters. 
+The default delimiter for inline math equation is `\\( ... \\)`. (Refer to the [MathJax documentatation](https://docs.mathjax.org/en/latest/options/input/tex.html).) Since single `$` sign is used frequently, it is not recommended to use this as delimiter in general situation. However, I don't think I will use `$` symbols for other uses, so I set  both of `$...$` and ``\\(...\\)`` as inline math delimiters. 
 
 To do this, I added the following lines in `_includes/footer.html` file:
 
@@ -119,4 +119,14 @@ I found that one can define the macros in the MathJax snippet. Now the lines in 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
-When writing post, `$$\NN$$` is rendered as `$$\mathbb N$$` and shown as $$\NN$$. Check the MathJax documentation [page](https://docs.mathjax.org/en/latest/input/tex/macros.html) for further details.
+When writing a post, `$$\NN$$` is rendered as `$$\mathbb N$$` and shown as $$\NN$$. Check the MathJax documentation [page](https://docs.mathjax.org/en/latest/input/tex/macros.html) for further details.
+
+--- 
+update (2026-07-26)
+
+Now polyfill is not only outdated but can also be a security weakness. Refer to the [mathjax page](https://www.mathjax.org/#gettingstarted)
+
+Currently the page says that the following code snippet would be perfect: 
+```javascript
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+```
